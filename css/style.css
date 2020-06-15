@@ -1,0 +1,54 @@
+/* GENERAL RULES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  font-family: 'MuseoModerno', cursive;
+}
+body {
+  color: white;
+}
+/* specific rules */
+.wrapper {
+  width: 45%;
+  margin: 0 auto;
+  padding: 50px;
+  border: solid white 2px;
+}
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 2px solid black;
+  background: lightblue;
+  text-align: center;
+}
+input:hover, input:focus {
+  background: white;
+}
+.todo-list  li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  text-transform:capitalize;
+}
+.trash i {
+  cursor: pointer;
+  color: orange;
+}
+.cestino {
+  display: none;
+}
